@@ -1,0 +1,86 @@
+@use '@/utils/sass/functions'
+.banner
+    background: url(/images/bg-7.jpg), no-repeat
+    height: 100vh
+    background-size: cover
+    background-position: center center
+    display: flex
+    align-items: center
+    justify-content: center
+    .content
+        width: 500px
+        transform: translateY(-17px)
+        text-align: center
+        p,h1
+            color: var(--white)
+            line-height: 2.4rem
+            text-shadow: 1px 1px 1px #111
+        h1
+            font-size: 6rem
+        p
+            margin: 1.7rem 0
+            font-size: 1.6rem
+            font-weight: bold
+.services
+    display: grid
+    grid-template-columns: repeat(auto-fit,minmax(26rem, 1fr))
+    justify-content: center
+    gap: 3rem
+    margin-top: 2rem
+    max-width: 1044px
+    width: 100%
+    margin: 0 auto
+    li
+        box-shadow: 1px 1px 11px 2px #2222226a
+        padding: 1rem 2rem
+        border-radius: .4rem
+        .figure
+            position: relative
+            width: 90px
+            height: 90px
+        p,h2
+            color: var(--color-primary)
+            font-weight: bold !important
+        h2
+            font-size: 1.6rem
+            margin: 0.7rem 0
+            line-height: 2rem
+        p
+            font-size: 1.2rem
+
+.infoContainer
+    display: flex
+    align-items: center
+    flex-direction: column
+    gap: 4rem
+    .content
+        display: grid
+        grid-template-columns: 3fr 2fr
+        gap: 2.6rem
+        &:nth-child(even)
+            direction: rtl
+        color: var(--white)
+        @include functions.responsive(667px)
+            grid-template-columns: 1fr
+            flex-direction: column
+            &:nth-child(even)
+                direction: ltr
+        h2
+            font-size: 2.6rem
+        p
+            margin-top: 1rem
+            font-size: 1.3rem
+            line-height: 1.8rem
+        .text
+            padding-top: 3rem
+        .banner
+            position: relative
+            width: 100%
+            height: 360px
+            @include functions.responsive(667px)
+                height: 300px
+            img
+                box-shadow: 1px 1px 11px 4px #1111118f
+                border-radius: .3rem
+
+

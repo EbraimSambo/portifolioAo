@@ -1,0 +1,35 @@
+.header
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 2rem
+    width: 100%
+    top: 0
+    left: 0
+    right: 0
+    position: fixed
+    z-index: 1000
+    &.normal
+        background: var(--color-primary)
+        box-shadow: var(--box-shadow)
+    &.active
+        background: var(--color-primary)
+        box-shadow: var(--box-shadow)
+    nav
+        ul
+            display: flex
+            align-items: center
+            gap: .6rem
+            a
+                font-size: 1.4rem
+                font-weight: 700
+    a
+        color: var(--white)
+.logo
+    font-size: 1.7rem
+    margin-right: .3rem
+    font-weight: bold
+    span
+        &:last-child
+            font-size: 1.5rem
+            color: var(--color-secondary)
