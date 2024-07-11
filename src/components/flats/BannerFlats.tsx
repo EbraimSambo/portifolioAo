@@ -6,7 +6,7 @@ const BannerFlats = () => {
     return (
         <section className={style.banner}>
             <div className={style.cover}>
-                <Image src={"/images/bg-1.jpg"} fill priority alt='banner' />
+                <Image src={"https://images.pexels.com/photos/7129690/pexels-photo-7129690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"} fill priority alt='banner' />
             </div>
             <div className={style.desc}>
                 <div className={style.content}>
