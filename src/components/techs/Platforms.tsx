@@ -20,9 +20,10 @@ const Platforms = () => {
               <div className={style.cover}>
                 <Image src={tech.src} fill priority alt={tech.tech} />
               </div>
-              <h1> {tech.tech} </h1>
+              <h3> {tech.tech} </h3>
             </li>
           ))}
+          <div className={style.border}></div>
       </ul>
     </section>
   )

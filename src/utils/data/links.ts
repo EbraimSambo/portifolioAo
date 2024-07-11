@@ -145,5 +145,25 @@ export const Images = [
     tech: "Mateiral UI",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg",
         type: "lib"
+    },{
+        tech: "AWS",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+        type: "platform"
+    },{
+        tech: ".NET",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg",
+        type: "framework"
+    },{
+        tech: "C#",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
+        type: "language"
+    },{
+        tech: " Angular",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg",
+        type: "framework"
+    },{
+        tech: " Angular",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg",
+        type: "framework"
     }
 ]

@@ -5,28 +5,28 @@ import Image from 'next/image'
 
 const BasicWeb = () => {
   return (
-    <section style={{marginTop: "6rem"}} className={style.techs}>
-      <h2>Basíco da Web</h2>
+    <section className={style.techs}>
+      <h2>Basícos da Web</h2>
       <ul>
         {Images.filter((techs) =>
-          techs.type != "framework"
-          && techs.type != "lib"
-          && techs.type != "platform"
+          techs.type != "platform"
+          && techs.type != "framework"
           && techs.type != "superset"
           && techs.type != "orm"
-          && techs.type != "language"
-        ).map((tech, index)=>(
-          <li key={index}>
-            {tech.type != "framework" && tech.type != "platform" && tech.type != "lib" && tech.type != "orm"  &&(
-              <>
+          && techs.type != "lib"
+          && techs.tech != "PHP"
+          && techs.tech != "Python"
+          && techs.tech != "Ruby"
+          && techs.tech != "C#"
+        ).map((tech, index) => (
+            <li key={index}>
               <div className={style.cover}>
-                 <Image src={tech.src} fill priority alt={tech.tech} />
+                <Image src={tech.src} fill priority alt={tech.tech} />
               </div>
-              <h1> {tech.tech} </h1>
-              </>
-            )}
-          </li>
-        ))}
+              <h3> {tech.tech} </h3>
+            </li>
+          ))}
+          <div className={style.border}></div>
       </ul>
     </section>
   )
