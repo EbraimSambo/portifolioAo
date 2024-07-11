@@ -102,6 +102,9 @@ export const Images = [
         src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
     },{
         tech: "Django",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain-wordmark.svg"
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg"
+    },{
+        tech: "Figma",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
     }
 ]
