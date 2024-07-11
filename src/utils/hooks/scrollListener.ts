@@ -33,3 +33,21 @@ export function useScrollHeader(target: React.RefObject<HTMLElement>){
 
     return {scroll,pathName}
 }
+
+
+export const useMenu = ()=>{
+  const [menu, setMenu] = useState(false)
+
+  // function clickWindow(){
+  //   if(menu){
+  //     setMenu(false)
+  //   }
+  // }
+  // useEffect(()=>{
+  //   window.document.addEventListener("click", clickWindow)
+  //   return ()=> window.document.removeEventListener("click", clickWindow)
+  // },[menu])
+
+
+  return {menu, setMenu}
+}

@@ -1,3 +1,5 @@
+@use '@/utils/sass/functions'
+
 .header
     display: flex
     justify-content: space-between
@@ -15,16 +17,38 @@
     &.active
         background: var(--color-primary)
         box-shadow: var(--box-shadow)
+    &.activeMenu
+        nav
+            @include functions.responsive(667px)
+                transform: translateX(0)
     nav
+        @include functions.responsive(667px)
+            position: absolute
+            top: 0
+            left: 0
+            right: 0
+            bottom: 0
+            height: 100vh
+            background: var(--color-primary)
+            transform: translateX(-300%)
+            display: flex
+            align-items: center
+            justify-content: center
         ul
             display: flex
             align-items: center
             gap: .9rem
+            position: relative
             a
                 font-size: 1.4rem
                 font-weight: 700
                 &:hover
                     color: #f5bc01
+            @include functions.responsive(667px)
+                flex-direction: column
+                justify-content: center
+                a
+                    font-size: 2rem
     a
         color: var(--white)
 .logo
@@ -35,3 +59,19 @@
         &:last-child
             font-size: 1.5rem
             color: var(--color-secondary)
+.btnMenu
+    background: transparent
+    padding: 0.3rem
+    display: none
+    @include functions.responsive(667px)
+        display: initial
+
+.btnMenuClose
+    background: transparent
+    padding: 0.3rem
+    display: none
+    position: absolute
+    top: 2%
+    left: 4%
+    @include functions.responsive(667px)
+        display: initial
