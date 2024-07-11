@@ -3,19 +3,18 @@ import React from 'react'
 import style from './tech.module.sass'
 import Image from 'next/image'
 
-const Languages = () => {
+const Databases = () => {
   return (
     <section className={style.techs}>
-      <h2>Linguagens de Programação</h2>
+      <h2>Bancos de Dados</h2>
       <ul>
         {Images.filter((techs) =>
-          techs.type != "framework"
+          techs.type != "language"
           && techs.type != "lib"
+          && techs.type != "framework"
+          && techs.type != "superset"
           && techs.type != "platform"
-          && techs.tech != "Sass"
-          && techs.type != "orm"
           && techs.type != "basic"
-          && techs.type != "database"
         ).map((tech, index) => (
             <li key={index}>
               <div className={style.cover}>
@@ -30,4 +29,4 @@ const Languages = () => {
   )
 }
 
-export default Languages
+export default Databases

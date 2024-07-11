@@ -10,6 +10,7 @@ const BasicWeb = () => {
       <ul>
         {Images.filter((techs) =>
           techs.type != "framework"
+          && techs.type != "database"
           && techs.type != "superset"
           && techs.type != "orm"
           && techs.type != "lib"
@@ -23,6 +24,7 @@ const BasicWeb = () => {
           && techs.tech != "Azure"
           && techs.tech != "AWS"
           && techs.tech != "Figma"
+          && techs.tech != "Apache"
         ).map((tech, index) => (
             <li key={index}>
               <div className={style.cover}>

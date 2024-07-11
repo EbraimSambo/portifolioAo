@@ -15,6 +15,7 @@ const Frameworks = () => {
           && techs.type != "superset"
           && techs.type != "orm"
           && techs.type != "basic"
+          && techs.type != "database"
         ).map((tech, index) => (
             <li key={index}>
               <div className={style.cover}>

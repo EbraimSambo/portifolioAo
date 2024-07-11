@@ -1,5 +1,6 @@
 import PageContainer from "@/components/containers/PageContainer";
 import BasicWeb from "@/components/techs/BasicWeb";
+import Databases from "@/components/techs/Databases";
 import Frameworks from "@/components/techs/Frameworks";
 import Languages from "@/components/techs/Languages";
 import Libs from "@/components/techs/Libs";
@@ -13,6 +14,7 @@ export default function TechsPage(){
             <Frameworks />
             <Platforms />
             <Libs />
+            <Databases />
       </PageContainer>
     )
 }

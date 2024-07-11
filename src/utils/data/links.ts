@@ -177,5 +177,21 @@ export const Images = [
         tech: "Git",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
         type: "platform"
+    },{
+        tech: "Apache",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apache/apache-original.svg",
+        type: "platform"
+    },{
+        tech: "Mysql",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
+        type: "database"
+    },{
+        tech: "JQuery",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original-wordmark.svg",
+        type: "lib"
+    },{
+        tech: "Bootstrap",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
+        type: "lib"
     }
 ]
