@@ -169,5 +169,13 @@ export const Images = [
         tech: "Photoshop",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg",
         type: "platform"
+    },{
+        tech: "Go",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg",
+        type: "language"
+    },{
+        tech: "Git",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+        type: "platform"
     }
 ]
