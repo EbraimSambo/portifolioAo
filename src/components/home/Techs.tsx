@@ -13,7 +13,7 @@ const Techs = () => {
                 <Link href={"/techs"} >Ver outras tecnologias</Link>
             </div>
             <ul className={style.icons}>
-                {Images.map((tech, index) => (
+                {Images.slice(0,19).map((tech, index) => (
                     <li key={index} title={tech.tech} >
                         <div className={style.cover}>
                             <Image src={tech.src} fill priority alt={tech.tech} />
