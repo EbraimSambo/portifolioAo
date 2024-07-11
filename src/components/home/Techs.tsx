@@ -12,7 +12,7 @@ const Techs = () => {
             </div>
             <ul className={style.icons}>
                 {Images.map((tech, index) => (
-                    <li key={index}>
+                    <li key={index} title={tech.tech} >
                         <div className={style.cover}>
                             <Image src={tech.src} fill priority alt={tech.tech} />
                         </div>

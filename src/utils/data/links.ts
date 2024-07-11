@@ -89,8 +89,19 @@ export const Images = [
     },{
         tech: "PHP",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
+    },
+    {
+        tech: "Vue.js",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg"
+    },
+    {
+        tech: "Ruby Rails",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rails/rails-plain-wordmark.svg"
     },{
         tech: "Express.js",
         src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+    },{
+        tech: "Django",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain-wordmark.svg"
     }
 ]
