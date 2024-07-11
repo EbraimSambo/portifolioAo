@@ -14,7 +14,7 @@ export const LinksNavbar = [
 export const ServicesData =[
     {
         service: 'Criação de WebSites',
-        body: 'Criação de aplicativos Mobile para qualquer fim.',
+        body: 'Criação de sites e sistemas web para todos fins.',
         figure: '/icons/internet-2.png'
     },
     {
@@ -24,22 +24,22 @@ export const ServicesData =[
     },
     {
         service: 'Criaçõa de Apps Desktop',
-        body: 'Criação de aplicativos Mobile para qualquer fim.',
+        body: 'Somos especilistas em criar aplicativos e sistemas desktop.',
         figure: '/icons/updating.png'
     },    {
         service: 'Manunteção de sites',
-        body: 'Montamos como também damos manunteção de servidores.',
-        figure: '/icons/updating.png'
+        body: 'Realizamos a manunteção de sites realizados com tecnologias depreciadas.',
+        figure: '/icons/server-2.png'
     },
     {
         service: 'Criação de Softwers de Gestão',
         body: 'Somos  especilistas em criar sistemas de gestão e facturação',
-        figure: '/icons/updating.png'
+        figure: '/icons/database.png'
     },
     {
         service: 'Consutoria de SEO',
         body: 'Criação de aplicativos Mobile para qualquer fim.',
-        figure: '/icons/updating.png'
+        figure: '/icons/satellite.png'
     }
 ]
 
@@ -193,5 +193,25 @@ export const Images = [
         tech: "Bootstrap",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
         type: "lib"
+    },{
+        tech: "Doctrine",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/doctrine/doctrine-original.svg",
+        type: "database"
+    },{
+        tech: "SqlServer",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg",
+        type: "database"
+    },{
+        tech: "Postgresql",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
+        type: "database"
+    },{
+        tech: "SQL 3",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg",
+        type: "database"
+    },{
+        tech: "Mongodb",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+        type: "database"
     }
 ]

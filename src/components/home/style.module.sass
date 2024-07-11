@@ -23,32 +23,39 @@
             font-weight: bold
 .services
     padding: 2rem
-    display: grid
-    grid-template-columns: repeat(auto-fit,minmax(26rem, 1fr))
-    justify-content: center
-    gap: 3rem
     margin-top: 2rem
     max-width: 1044px
     width: 100%
     margin: 0 auto
-    li
-        box-shadow: 1px 1px 11px 2px #2222226a
-        padding: 1rem 2rem
-        border-radius: .4rem
-        .figure
-            position: relative
-            width: 80px
-            height: 80px
-        p,h2
-            color: var(--color-primary)
-            font-weight: bold !important
-        h2
-            font-size: 1.6rem
-            margin: 0.7rem 0
-            line-height: 2rem
-        p
-            font-size: 1.2rem
-            line-height: 1.7rem
+    h2
+        font-size: 4rem
+        text-align: center
+        color: var(--color-primary)
+        margin-bottom: 1.5rem
+    ul
+        display: grid
+        grid-template-columns: repeat(auto-fit,minmax(26rem, 1fr))
+        justify-content: center
+        gap: 3rem
+        li
+            box-shadow: 1px 1px 11px 2px #2222226a
+            padding: 1rem 2rem
+            border-radius: .4rem
+            .figure
+                position: relative
+                width: 80px
+                height: 80px
+            p,h3
+                color: var(--color-primary)
+                font-weight: bold !important
+            h3
+                font-size: 1.6rem
+                margin: 0.7rem 0
+                line-height: 2rem
+            p
+                font-size: 1.2rem
+                line-height: 1.7rem
+                color: #4b4646
 
 .infoContainer
     display: flex
@@ -61,12 +68,14 @@
         gap: 2.6rem
         &:nth-child(even)
             direction: rtl
-        color: var(--white)
+            color: var(--white)
         @include functions.responsive(667px)
             grid-template-columns: 1fr
             flex-direction: column
             &:nth-child(even)
                 direction: ltr
+        h2,p
+            color: #fff
         h2
             font-size: 3.6rem
         p
@@ -84,7 +93,6 @@
             img
                 box-shadow: 1px 1px 11px 4px #1111118f
                 border-radius: .3rem
-
 
 .techs
     margin-bottom: 4rem

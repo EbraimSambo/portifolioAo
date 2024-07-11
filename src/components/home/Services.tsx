@@ -5,17 +5,21 @@ import Image from 'next/image'
 
 const Services = () => {
   return (
-    <ul className={style.services}>
+    <section className={style.services}>
+      <h2>Nossos Serviços</h2>
+        <ul>
         {ServicesData.map((service, index)=>(
             <li key={index}>
                 <div className={style.figure}>
                     <Image src={service.figure} fill alt={service.service} />
                 </div>
-                <h2> {service.service} </h2>
+                <h3> {service.service} </h3>
                 <p> {service.body} </p>
             </li>
         ))}
-    </ul>
+    </ul>  
+    </section>
+
   )
 }
 
