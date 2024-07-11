@@ -158,12 +158,16 @@ export const Images = [
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
         type: "language"
     },{
-        tech: " Angular",
+        tech: "Angular",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg",
         type: "framework"
     },{
-        tech: " Angular",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg",
+        tech: " Symfony",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/symfony/symfony-original.svg",
         type: "framework"
+    },{
+        tech: "Photoshop",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg",
+        type: "platform"
     }
 ]
