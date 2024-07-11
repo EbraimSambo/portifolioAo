@@ -1,0 +1,100 @@
+@use '@/utils/sass/functions'
+
+.flats
+    max-width: 1020px
+    width: 100%
+    margin: 2rem auto
+    padding: 0 2rem
+    .container
+        display: grid
+        grid-template-columns: repeat(3, 1fr)
+        @include functions.responsive(907px)
+            grid-template-columns: repeat(2, 1fr)
+        @include functions.responsive(547px)
+            grid-template-columns: 100%
+        gap: 2rem
+        li
+            padding: 1rem 2rem
+            border-radius: .6rem
+            background: var(--color-primary)
+            display: flex
+            flex-direction: column
+            gap: 2rem
+            width: 100%
+            box-shadow: .8rem 1rem 1rem 0rem rgba(17, 17, 17, 0.2549019608)
+            p,h3,span, h4, h5
+                color: #fff
+            h3
+                font-size: 6rem
+                @include functions.responsive(547px)
+                    font-size: 4rem
+            p
+                font-size: 1.4rem
+                line-height: 2rem
+            h4
+                font-size: 1.6rem
+            h5
+                padding-left: .5rem
+                span
+                    &:first-child
+                        font-size: 3.5rem
+                    @include functions.responsive(547px)
+                        font-size: 2.5rem
+                span
+                    &:last-child
+                        font-size: 1.9rem
+            ul
+                display: flex
+                flex-direction: column
+                gap: .3rem
+                margin-left: .7rem
+                li
+                    box-shadow: none
+                    width: 100%
+                    display: flex
+                    align-items: center
+                    gap: 0.6rem
+                    padding: 0.4rem
+                    flex-direction: row
+                    svg
+                        color: #f5bc01
+
+.banner
+    width: 100%
+    .cover
+        position: relative
+        height: 100vh
+        width: 100%
+        @include functions.responsive(447px)
+            height: 90vh
+    .desc
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        display: flex
+        align-items: center
+        justify-content: center
+        padding: 0 1rem
+        .content
+            max-width: 700px
+            width: 100%
+            text-align: center
+            background: #2524244f
+        p,h1
+            color: #fff
+            text-shadow: 1px 1px 1px #111
+        h1
+            font-size: 7.8rem
+            @include functions.responsive(747px)
+                font-size: 5rem
+            @include functions.responsive(447px)
+                font-size: 3.6rem
+        p
+            font-size: 3.2rem
+            font-weight: 600
+            @include functions.responsive(747px)
+                font-size: 2.5rem
+            @include functions.responsive(447px)
+                font-size: 2.2rem

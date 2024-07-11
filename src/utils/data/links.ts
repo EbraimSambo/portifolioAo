@@ -3,8 +3,8 @@ export const LinksNavbar = [
         name: "Home",
         path: "/"
     },    {
-        name: "Projectos",
-        path: "/projects"
+        name: "Planos",
+        path: "/flats"
     },    {
         name: "Tecnlogias",
         path: "/techs"
@@ -88,9 +88,9 @@ export const Images = [
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
         type: "lib"
     },{
-        tech: "Prisma",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg",
-        type: "orm"
+        tech: "Git",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+        type: "platform"
     },{
         tech: "Typescript",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
@@ -117,6 +117,10 @@ export const Images = [
         tech: "Express.js",
         src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
         type: "framework"
+    },{
+        tech: "SqlServer",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg",
+        type: "database"
     },{
         tech: "Django",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg",
@@ -174,10 +178,6 @@ export const Images = [
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg",
         type: "language"
     },{
-        tech: "Git",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
-        type: "platform"
-    },{
         tech: "Apache",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apache/apache-original.svg",
         type: "platform"
@@ -198,10 +198,6 @@ export const Images = [
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/doctrine/doctrine-original.svg",
         type: "database"
     },{
-        tech: "SqlServer",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg",
-        type: "database"
-    },{
         tech: "Postgresql",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
         type: "database"
@@ -213,5 +209,133 @@ export const Images = [
         tech: "Mongodb",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
         type: "database"
+    },{
+        tech: "Prisma",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg",
+        type: "orm"
+    },
+]
+
+
+export const FlatsData = [
+    {
+        flat: "Free",
+        desc: "Aproveite o nosso plano gratuito para teste." ,
+        for: "Iniciantes",
+        price: "00",
+        benefices:[
+            {
+                benefice: "Site com 2 pagina",
+            },
+            {
+                benefice: "Pagar o valor da hospedagem",
+            },
+            {
+                benefice: "Sem integração com SEO",
+            }
+        ]
+    },
+    {
+        flat: "Medium",
+        desc: "Faça a sua marca possuir um espaço digital." ,
+        for: "Pequenos negócios",
+        price: "38.000",
+        benefices:[
+            {
+                benefice: "Site com 5 pagina",
+            },
+            {
+                benefice: "Valor da hospedagem incluido",
+            },
+            {
+                benefice: "Integração com SEO",
+            },
+            {
+                benefice: "Manutenção paga",
+            }
+        ]
+    },
+    {
+        flat: "Premium",
+        desc: "Aproveite o nosso plano gratuito" ,
+        for: "Medios Negócios",
+        price: "58.000",
+        benefices:[
+            {
+                benefice: "Site com 15 paginas",
+            },
+            {
+                benefice: "Todas configuarações",
+            },
+            {
+                benefice: "Integração com SEO",
+            },
+            {
+                benefice: "Direito há 5 manutenções",
+            }        
+        ]
+    },
+    {
+        flat: "Master",
+        desc: "Aproveite o nosso plano gratuito" ,
+        for: "Grandes negócios",
+        price: "98.000",
+        benefices:[
+            {
+                benefice: "Site com 30 paginas",
+            },
+            {
+                benefice: "Todas configuarações",
+            },
+            {
+                benefice: "Integração com SEO",
+            },
+            {
+                benefice: "Direito há 5 manutenções",
+            }        
+        ]
+    },
+    {
+        flat: "Pro Max",
+        desc: "Aproveite o nosso plano gratuito" ,
+        for: "Grandes negócios",
+        price: "108.000",
+        benefices:[
+            {
+                benefice: "Site com paginas ilimitadas",
+            },
+            {
+                benefice: "Todas configuarações",
+            },
+            {
+                benefice: "Integração com SEO",
+            },
+            {
+                benefice: "Direito há 5 manutenções",
+            }        
+        ]
+    },
+    {
+        flat: "Gold",
+        desc: "Aproveite o nosso plano gratuito" ,
+        for: "Grandes negócios",
+        price: "258.000",
+        benefices:[
+            {
+                benefice: "Site com paginas ilimitadas",
+            },
+            {
+                benefice: "Todas configuarações",
+            },
+            {
+                benefice: "Integração com SEO",
+            },
+            {
+                benefice: "Direito há 5 manutenções",
+            },
+            {
+                benefice: "Direito a um aplicativo",
+            }        
+        ]
     }
 ]

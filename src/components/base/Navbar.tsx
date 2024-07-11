@@ -11,10 +11,8 @@ type ProgressbarProps = {
 const Navbar = ({target}:ProgressbarProps) => {
   
   const {scroll,pathName} = useScrollHeader(target)
-  console.log(scroll);
-  
   return (
-    <header className={`${style.header} ${pathName ==="/" ? scroll && style.active: style.normal} `}>
+    <header className={`${style.header} ${pathName ==="/" || pathName ==="/flats" ? scroll && style.active: style.normal} `}>
       <Logo />
       <nav>
         <ul>
